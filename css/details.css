@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 10px;
+}
+
+header .top{
+    height: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+header .bottom{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom input{
+    width: 800px;
+    height: 40px;
+    border: 2px solid red;
+}
+
+.bottom button{
+    width: 100px;
+    height: 40px;
+    background-color: pink;
+}
+
+nav ul{
+    height: 50px;
+    margin: 10px;
+    list-style-type: none;
+    border-bottom: 2px solid red;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 2.0rem;
+}
+
+.category{
+    text-decoration: none;
+}
+
+.return_index{
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .lightlist{
+    width: 100%;
+    height: 840px;
+    /* background-color: aquamarine; */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;  /* 此行不加会出现上下换行相隔太远的问题 */
+}
+
+.content .categorytitle{
+    font-size: 3.0rem;
+}
+
+.lightlist .lightitem{
+    width: 800px;
+    height: 840px;
+    margin: 20px;
+}
+
+.lightlist .lightdetails{
+    width: 40%;
+    height: 840px;
+    margin: 20px;
+    text-align: center;
+}
+
+.lightlist .lightdetails span{
+    /* height: 200px; */
+    height: 70px;
+    display: block;
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+.lightlist .lightdetails input{
+    text-align: center;
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 200px;
+}
+
+.submit_button{
+    margin: 20px;
+    height: 40px;
+}
+
+.lightlist .lightdetails span:nth-of-type(2){
+    color: gray;
+}
+
+.lightlist .lightdetails span:nth-of-type(3){
+    color: red;
+}
+
+footer{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: cornflowerblue;
+    font-size: 1.5rem;
+}

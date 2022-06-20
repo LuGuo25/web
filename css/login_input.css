@@ -1,0 +1,53 @@
+:root{
+    background-color: #fcc;
+    font-size: 20px;
+}
+
+table{
+    margin: auto;
+}
+
+caption{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    margin: 30px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+input[type*='checkbox']{
+    width: 80px;
+    height: 50px;
+    margin: 40px;
+    font-size: 1rem;
+    vertical-align: middle;
+} 
+
+.register{
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+input:focus{
+    outline-color: black;
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+    background: linear-gradient(0deg,#ccf,#8af);
+    box-shadow: 5px 5px 4px 4px #000;
+}
+
+input[type="submit"]:active{
+    box-shadow: 4px 4px 5px 5px #567;
+}
+
+.captcha{
+    display: flex;
+    align-items: center;
+}

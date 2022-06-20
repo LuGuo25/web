@@ -1,0 +1,52 @@
+:root{
+    background-color: rgb(255,192,203);
+}
+table {
+    margin: 0 auto;
+}
+
+table,
+td {
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+
+table input,select{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+table input[type*='radio']{
+    width: 50px;
+    height: 20px;
+    margin: 20px 0;
+    vertical-align: middle;
+}
+table input[type*='checkbox']{
+    width: 80px;
+    height: 20px;
+    margin: 20px 0;
+    vertical-align: middle;
+}
+table input[type*='color']{
+    width: 100px;
+    height: 40px;
+}
+#smttd {
+    text-align: center;
+}
+#tip {
+    text-align: center;
+    height: 50px;
+}
+#province{
+    height: 60px;
+}
+table td:nth-child(2n+1) {
+    text-align: right;
+}
+
+#smttd:hover {
+    background-color: #777;
+}
